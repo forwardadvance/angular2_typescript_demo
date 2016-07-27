@@ -5,7 +5,7 @@ module.exports = {
     filename: 'build/app.js'
   },
   resolve: {
-    extensions: ['', '.ts', '.js']
+    extensions: ['', '.ts']
   },
   module: {
     loaders: [
