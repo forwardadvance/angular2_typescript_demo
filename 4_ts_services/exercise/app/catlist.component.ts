@@ -15,7 +15,7 @@ import {Component} from '@angular/core';
 
 export class CatListComponent {
   cats:Array<any>
-  constructor(cats: CatsService) {
+  constructor() {
     this.cats = [
       { name: "Danger Moog" },
       { name: "Pippa T. Floof" },
