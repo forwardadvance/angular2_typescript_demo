@@ -1,5 +1,5 @@
 export class CatsService {
-  cats
+  cats:Array<any>
   constructor() {
     this.cats = [
       { name: "Danger Moog" },
