@@ -1,0 +1,13 @@
+{
+  "name": "angular2-quickstart",
+  "version": "1.0.0",
+  "scripts": {
+  },
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^1.7.5",
+    "typings": "^0.6.8"
+  }
+}
