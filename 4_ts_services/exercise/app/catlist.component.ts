@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {CatsService} from './cats.service';
 
 @Component({
   selector: 'cat-list',
@@ -11,13 +10,16 @@ import {CatsService} from './cats.service';
     </ul>
   `,
   directives: [],
-  providers: [CatsService]
 
 })
 
 export class CatListComponent {
   cats:Array<any>
   constructor(cats: CatsService) {
-      this.cats = cats.get();
+    this.cats = [
+      { name: "Danger Moog" },
+      { name: "Pippa T. Floof" },
+      { name: "Sniff Weasel" }
+    ]
   }
 }
